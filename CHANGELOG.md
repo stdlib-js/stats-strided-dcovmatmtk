@@ -1,0 +1,62 @@
+# CHANGELOG
+
+> Package changelog.
+
+<section class="release" id="unreleased">
+
+## Unreleased (2025-07-15)
+
+<section class="features">
+
+### Features
+
+-   [`0223c17`](https://github.com/stdlib-js/stdlib/commit/0223c174b37d7802cfa4540f731245a90fa44249) - add `stats/strided/dcovmatmtk`
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`d529cbd`](https://github.com/stdlib-js/stdlib/commit/d529cbd7745c4ba69415d450f1e2f597b212e9fc) - simplify and fix branching logic and use assertion utility
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`0697c39`](https://github.com/stdlib-js/stdlib/commit/0697c390bd49cc063e8ef4879c19bcc096403d58) - **docs:** fix comment _(by Athan Reines)_
+-   [`f4fcf70`](https://github.com/stdlib-js/stdlib/commit/f4fcf70ef5217c6be503a40e9cb7e1fe64e1bbb0) - **docs:** update comment _(by Athan Reines)_
+-   [`d529cbd`](https://github.com/stdlib-js/stdlib/commit/d529cbd7745c4ba69415d450f1e2f597b212e9fc) - **fix:** simplify and fix branching logic and use assertion utility _(by Athan Reines)_
+-   [`44999d8`](https://github.com/stdlib-js/stdlib/commit/44999d869ceff5fb91fc092ea75aa03d4d39b1eb) - **chore:** resolve lint errors _(by Athan Reines)_
+-   [`0223c17`](https://github.com/stdlib-js/stdlib/commit/0223c174b37d7802cfa4540f731245a90fa44249) - **feat:** add `stats/strided/dcovmatmtk` _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
