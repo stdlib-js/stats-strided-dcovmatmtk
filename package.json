@@ -69,10 +69,12 @@
   },
   "devDependencies": {
     "@stdlib/array-base-strided2array2d": "^0.2.2",
+    "@stdlib/array-filled": "^0.2.1",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/array-zeros": "^0.2.2",
     "@stdlib/assert-is-almost-equal-float64array": "github:stdlib-js/assert-is-almost-equal-float64array#main",
     "@stdlib/assert-is-browser": "^0.2.2",
+    "@stdlib/assert-is-same-float64array": "^0.2.2",
     "@stdlib/blas-base-layout-resolve-enum": "^0.0.2",
     "@stdlib/blas-base-matrix-orientation-resolve-enum": "github:stdlib-js/blas-base-matrix-orientation-resolve-enum#main",
     "@stdlib/blas-base-matrix-triangle-resolve-enum": "^0.1.1",
