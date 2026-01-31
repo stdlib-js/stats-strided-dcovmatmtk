@@ -127,6 +127,11 @@ Given a matrix **X** containing `K` data vectors `X_i`, a [covariance matrix][co
 ## Usage
 
 ```javascript
+import dcovmatmtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-dcovmatmtk/tags). For example,
+
+```javascript
 import dcovmatmtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@v0.1.0-deno/mod.js';
 ```
 
@@ -314,7 +319,7 @@ var out = dcovmatmtk.ndarray( 'rows', 'full', 2, 3, 1, means, -1, 1, A, 3, 1, 3,
 ```javascript
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import strided2array2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-strided2array2d@deno/mod.js';
-import dcovmatmtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@v0.1.0-deno/mod.js';
+import dcovmatmtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@deno/mod.js';
 
 // Define a 4x3 matrix in which variables are stored along rows in row-major order:
 var A = new Float64Array([
