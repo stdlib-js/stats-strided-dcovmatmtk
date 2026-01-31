@@ -129,7 +129,7 @@ Given a matrix **X** containing `K` data vectors `X_i`, a [covariance matrix][co
 To use in Observable,
 
 ```javascript
-dcovmatmtk = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@umd/browser.js' )
+dcovmatmtk = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -141,7 +141,7 @@ var dcovmatmtk = require( 'path/to/vendor/umd/stats-strided-dcovmatmtk/index.js'
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -341,7 +341,7 @@ var out = dcovmatmtk.ndarray( 'rows', 'full', 2, 3, 1, means, -1, 1, A, 3, 1, 3,
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-strided2array2d@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
