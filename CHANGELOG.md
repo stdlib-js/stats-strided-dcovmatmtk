@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.1.0">
 
-## Unreleased (2025-08-25)
+## 0.1.0 (2026-01-31)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`60c82d7`](https://github.com/stdlib-js/stdlib/commit/60c82d7956372df2c50a05cab73205aa85198aa5) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`01186a6`](https://github.com/stdlib-js/stdlib/commit/01186a6c54a31b74f9b1bf84f97ef40bd50a7e06) - **test:** add tests for an invalid correction argument _(by Athan Reines)_
 -   [`cc9cb3f`](https://github.com/stdlib-js/stdlib/commit/cc9cb3fa58fdb1fa11e38c6cd3e0d1b70d99ccb6) - **docs:** update equation _(by Athan Reines)_
