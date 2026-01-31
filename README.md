@@ -127,7 +127,7 @@ Given a matrix **X** containing `K` data vectors `X_i`, a [covariance matrix][co
 ## Usage
 
 ```javascript
-import dcovmatmtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@esm/index.mjs';
+import dcovmatmtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@v0.1.0-esm/index.mjs';
 ```
 
 #### dcovmatmtk( order, orient, uplo, M, N, correction, means, strideM, A, LDA, B, LDB )
@@ -319,7 +319,7 @@ var out = dcovmatmtk.ndarray( 'rows', 'full', 2, 3, 1, means, -1, 1, A, 3, 1, 3,
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import strided2array2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-strided2array2d@esm/index.mjs';
-import dcovmatmtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@esm/index.mjs';
+import dcovmatmtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcovmatmtk@v0.1.0-esm/index.mjs';
 
 // Define a 4x3 matrix in which variables are stored along rows in row-major order:
 var A = new Float64Array([
